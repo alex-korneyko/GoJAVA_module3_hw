@@ -1,5 +1,8 @@
 package GoJAVA;
 
+
+import java.util.*;
+
 public class Main
 {
     public static void main(String[] args)
@@ -9,6 +12,8 @@ public class Main
         Directory newDir = new Directory();
 
         newDir.GetDirInfo();
+
+        //---------------------------------------------------------------------------------------------------------
 
         System.out.println("--------- FLOWERS ---------");
 
@@ -36,10 +41,17 @@ public class Main
         Bouquet.ShowFlowers(flowers);                               //Первого букета уже нет, а цветы от него есть ))
                                         //Вызов статического метода, показывающего цветы в массиве
 
+        System.out.println("Цирк уехал, а клоуны остались :)");
+
         Rosebush bush = new Rosebush(101);                          //Розовый куст
         bush.GetRosebushInfo();
+
+
+        //---------------------------------------------------------------------------------------------------------
+
+
+
 
     }
 }
 
-//-----------------------------------------------------------------
