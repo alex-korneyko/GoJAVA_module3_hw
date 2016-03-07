@@ -1,6 +1,7 @@
 package GoJAVA;
 
 
+
 import java.util.*;
 
 public class Main
@@ -49,9 +50,36 @@ public class Main
 
         //---------------------------------------------------------------------------------------------------------
 
+        System.out.println("--------- MUSICSHOP ---------");
 
+        System.out.println("Создание коллекции для инструментов");
 
+        ArrayList<MusicInstrument> musicInstruments = new ArrayList<>();    //Пустая коллекция для инструментов
 
+        System.out.println("Размер коллекции: "+musicInstruments.size());
+
+        System.out.println("Открытие магазина");
+
+        MusicShop musicShop = new MusicShop(musicInstruments);              //Создаём магазин, конструктор которого
+                                        //заполняет коллекцию. При удалении этого объекта, коллекция с инструментами
+                                        //останется существовать
+
+        System.out.println("В магазине "+musicShop.GetInstrumentsCount()+" инструмента(-ов)");
+        System.out.print("Это: ");
+        musicShop.ShowInstruments();
+
+        System.out.println("В коллекции "+musicInstruments.size()+" инструментов");
+
+        System.out.println("Закрываем магазин, т.е. на его месте открываем новый");
+
+        musicShop = new MusicShop(new ArrayList<>());
+
+        System.out.println("В новом магазине новые инструменты, их "+musicShop.GetInstrumentsCount());
+        System.out.print("Это: ");
+        musicShop.ShowInstruments();
+
+        System.out.println("Старого магазина уже нет,");
+        System.out.println("а инструментов после него всё ещё "+musicInstruments.size()+" (старая коллекция)");
     }
 }
 
