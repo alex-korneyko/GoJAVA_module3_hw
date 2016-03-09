@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b42bf17-d5fc-4537-956e-7e6b51395755" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/AudioFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/Directory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/File.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/ImageFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/TextFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Aster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Bouquet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Chamomile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Flower.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Rose.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Rosebush.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Tulip.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/HW_Module3_MusicShop.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GoJAVA/HW_Module3_MusicShop.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/HW_Module3_MusicShop.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GoJAVA/HW_Module3_files.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GoJAVA/HW_Module3_flowers.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GoJAVA/Main.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/Main.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Main.java" />
     </list>
     <ignored path="Module3_Files_hw.iws" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,8 +52,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16161616">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state vertical-scroll-proportion="1.2390572">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,34 +61,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HW_Module3_files.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java">
+      <file leaf-file-name="Guitar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HW_Module3_flowers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java">
+      <file leaf-file-name="MusicInstrument.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="126" column="6" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
-              <folding>
-                <element signature="docComment;class#Rosebush#0" expanded="false" />
-                <element signature="class#Rosebush#0" expanded="false" />
-              </folding>
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HW_Module3_MusicShop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/HW_Module3_MusicShop.java">
+      <file leaf-file-name="MusicShop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Piano.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tube.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -110,9 +144,26 @@
         <option value="$PROJECT_DIR$/src/GoJAVA/HW_Module3_MusicShop.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Main.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/HW_Module3_files.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Files/AudioFiles.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Files/File.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Files/Directory.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Files/ImageFile.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Files/TextFile.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Flower.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Rose.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Chamomile.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Aster.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Tulip.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Bouquet.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Rosebush.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/HW_Module3_MusicShop.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Main.java" />
       </list>
     </option>
@@ -135,7 +186,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -633,12 +684,19 @@
       <workItem from="1457281781114" duration="6370000" />
       <workItem from="1457334353281" duration="1460000" />
       <workItem from="1457342568428" duration="4042000" />
-      <workItem from="1457534421435" duration="1401000" />
+      <workItem from="1457534421435" duration="4251000" />
     </task>
+    <task id="LOCAL-00001" summary="Serious rebuild code">
+      <created>1457535901622</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1457535901622</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30732000" />
+    <option name="totallyTimeSpent" value="33582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -646,10 +704,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32683983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14978679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -659,15 +719,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -680,6 +738,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Serious rebuild code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serious rebuild code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -702,58 +764,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-          <folding>
-            <element signature="docComment;class#Rosebush#0" expanded="false" />
-            <element signature="class#Rosebush#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/HW_Module3_MusicShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="docComment;class#Rosebush#0" expanded="false" />
-            <element signature="class#Rosebush#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -768,50 +784,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Rosebush#0" expanded="false" />
-            <element signature="class#Rosebush#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="77" selection-start-line="33" selection-start-column="77" selection-end-line="33" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#Rosebush#0" expanded="false" />
-            <element signature="class#Rosebush#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -884,37 +862,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java">
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/Directory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="6" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="126" column="6" selection-start-line="126" selection-start-column="6" selection-end-line="126" selection-end-column="6" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="docComment;class#Rosebush#0" expanded="false" />
-            <element signature="class#Rosebush#0" expanded="false" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/HW_Module3_MusicShop.java">
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/AudioFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="6" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/ImageFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Files/TextFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Aster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Flower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Rose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Tulip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Chamomile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Bouquet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Rosebush.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16161616">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state vertical-scroll-proportion="1.2390572">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

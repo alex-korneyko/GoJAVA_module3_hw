@@ -1,19 +1,15 @@
 package GoJAVA.Module3.MusicShop;
 
+import java.util.ArrayList;
 
-import java.util.*;
 
-
-public class HW_Module3_MusicShop {}
-
-class MusicShop
-{
+public class MusicShop {
     private ArrayList<MusicInstrument> _innerCopyInstrCollect;
 
-    MusicShop(ArrayList<MusicInstrument> musicInstruments)
+    public MusicShop(ArrayList<MusicInstrument> musicInstruments)
     {
         int _instrCount = 5 + (int)(Math.random() * ((15 - 5) + 1));    //Не поленился и нашёл Рандом
-                                                                        //количество инструментов в магазине
+        //количество инструментов в магазине
 
         System.out.println("Добавляем "+ _instrCount +" инструмента(-ов)");
 
@@ -57,24 +53,4 @@ class MusicShop
         }
         System.out.println();
     }
-}
-
-class MusicInstrument
-{
-
-}
-
-class Guitar extends MusicInstrument
-{
-
-}
-
-class Piano extends MusicInstrument
-{
-
-}
-
-class Tube extends MusicInstrument
-{
-
 }

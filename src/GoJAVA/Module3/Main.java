@@ -1,9 +1,8 @@
 package GoJAVA.Module3;
 
-import
-
-import GoJAVA.*;
-
+import GoJAVA.Module3.Files.*;
+import GoJAVA.Module3.Flowers.*;
+import GoJAVA.Module3.MusicShop.*;
 import java.util.*;
 
 public class Main
