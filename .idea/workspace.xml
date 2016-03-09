@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b42bf17-d5fc-4537-956e-7e6b51395755" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/AudioFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/Directory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/File.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/ImageFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/TextFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Aster.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Bouquet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Chamomile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Flower.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Rose.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Rosebush.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Tulip.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/Files/HW_Module3_files.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/HW_Module3_MusicShop.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/Main.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java" afterPath="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java" />
     </list>
     <ignored path="Module3_Files_hw.iws" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -49,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2390572">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="64" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,12 +45,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Guitar.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java">
+      <file leaf-file-name="MusicShop.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-              <folding />
+            <state vertical-scroll-proportion="0.24242425">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#1505#1506#0" expanded="true" />
+                <element signature="e#1557#1558#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,17 +62,17 @@
         <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MusicShop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java">
+      <file leaf-file-name="Guitar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -95,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -105,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -158,13 +145,13 @@
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/HW_Module3_flowers.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Bouquet.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Flowers/Rosebush.java" />
-        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/HW_Module3_MusicShop.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Main.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java" />
-        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/HW_Module3_MusicShop.java" />
+        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java" />
         <option value="$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java" />
-        <option value="$PROJECT_DIR$/src/GoJAVA/Module3/Main.java" />
       </list>
     </option>
   </component>
@@ -240,6 +227,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Module3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module_3_hw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module_3_hw" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MusicShop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -684,7 +693,7 @@
       <workItem from="1457281781114" duration="6370000" />
       <workItem from="1457334353281" duration="1460000" />
       <workItem from="1457342568428" duration="4042000" />
-      <workItem from="1457534421435" duration="4251000" />
+      <workItem from="1457534421435" duration="8504000" />
     </task>
     <task id="LOCAL-00001" summary="Serious rebuild code">
       <created>1457535901622</created>
@@ -692,11 +701,17 @@
       <option name="project" value="LOCAL" />
       <updated>1457535901622</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Serious rebuild code">
+      <created>1457538787417</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1457538787417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33582000" />
+    <option name="totallyTimeSpent" value="37835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -859,6 +874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.57016">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -867,8 +883,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#229#230#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -886,8 +902,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="false" />
+            <element signature="e#177#178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -897,8 +913,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="false" />
+            <element signature="e#210#211#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -908,8 +924,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="false" />
+            <element signature="e#206#207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -919,8 +935,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="false" />
+            <element signature="e#151#152#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -930,8 +946,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="false" />
+            <element signature="e#183#184#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -941,8 +957,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#189#190#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -952,8 +968,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#105#106#0" expanded="false" />
+            <element signature="e#150#151#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -963,8 +979,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="false" />
+            <element signature="e#204#205#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -988,7 +1004,7 @@
     <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicInstrument.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -996,7 +1012,7 @@
     <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Guitar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1004,7 +1020,7 @@
     <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Piano.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -1012,25 +1028,28 @@
     <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/Tube.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2390572">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="64" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoJAVA/Module3/MusicShop/MusicShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24242425">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
           </folding>
         </state>
       </provider>

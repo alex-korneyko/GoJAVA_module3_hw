@@ -1,9 +1,10 @@
 package GoJAVA.Module3.MusicShop;
 
 /**
- * Created by admin on 09.03.2016.
+ * Class {@code MusicInstrument} is abstract
+ * super-class for all musical instruments
+ * @version 1.0 09.03.2016
+ * @author Alex Korneyko
  */
-public class MusicInstrument
-{
-
+public abstract class MusicInstrument {
 }
