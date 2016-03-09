@@ -1,10 +1,19 @@
 package GoJAVA.Module3.Flowers;
 
+/**
+ * Class {@code Tulip} create flower as tulip
+ * @version 1.0 09.03.2016
+ * @author Alex Korneyko
+ */
+public class Tulip extends Flower {
 
-public class Tulip extends Flower
-{
-    public void GetTulipInfo()
-    {
-        System.out.println("a Tulip");
+    /**
+     * Method for only tulip
+     * @return string " a Tulip"
+     */
+    @Override
+    public String GetFlowerInfo() {
+
+        return super.GetFlowerInfo() + " a Tulip";
     }
 }

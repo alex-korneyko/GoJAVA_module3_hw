@@ -1,70 +1,61 @@
 package GoJAVA.Module3.Flowers;
 
 /**
- * Created by admin on 09.03.2016.
+ * Class {@code Bouquet} create bouquet from different flowers
+ * @version 1.0 09.03.2016
+ * @author Alex Korneyko
  */
 public class Bouquet {
 
-    private Flower[] _copyFlowers;                     //"рабочая" копия ссылки на массив цветов
-    private String _bqName;                             //имя букета
+    private Flower[] copyFlowers;                           //"рабочая" копия ссылки на массив цветов
+    private String bqName;                                  //имя букета
 
-    public Bouquet(Flower[] flowers, String bouquetName)      //Создание букета (КОНСТРУКТОР)
-    {
-        _bqName = bouquetName;
+    public Bouquet(Flower[] flowers, String bouquetName) {
 
-        int indexLastFlower = flowers.length - 1;       //Индекс последнего цветка в букете
+        bqName = bouquetName;
 
-        if(indexLastFlower < 0) return;                 //Цветов в букете не может быть меньше одного,
-        //т.е. индекс не может быть меньше нуля
+        if(flowers == null || flowers.length < 1)
+            return;                                         //Цветов в букете не может быть меньше одного,
+                                                            //а также проверка на существование самого массива
 
-        _copyFlowers = flowers;                         //инициализация "рабочей" ссылки на массив цветв,
-        //который пока ещё содержит "места для цветов"
-        //но конкретных цветов ещё там нет
+        copyFlowers = flowers;                              //инициализация "рабочей" ссылки на массив цветв,
+                                                            //который пока ещё содержит "места для цветов"
+                                                            //но конкретных цветов ещё там нет
 
-        for (int i=0; i <= indexLastFlower; i++)        //Заполнение массива конкретными цветами
-        {
-            _copyFlowers[i] = new Rose();               //************************************
-            //*Заполнение происходит поочерёдным созданием
-            if(indexLastFlower < ++i) return;           //*объктов каждого типа цветка, и помещение
-            //*его в массив. При чём приходится вручную
-            _copyFlowers[i] = new Chamomile();          //*увеличивать счётчик "i" и проверять его
-            //*на возможность выхода за пределы массива.
-            if(indexLastFlower < ++i) return;           //*Можно было бы просто сделать рандомный
-            //*выбор каждого цветка и помещение его в
-            _copyFlowers[i] = new Aster();              //*ячейку массива, но я не знаю функции
-            //*Рандома в JAVA
-            if(indexLastFlower < ++i) return;           //*************************************
+        for (int i=0; i <= flowers.length - 1; i++) {       //Заполнение массива конкретными цветами
 
-            _copyFlowers[i] = new Tulip();
+            switch ((int)(Math.random()*4)){
+                case 0:
+                    flowers[i] = new Aster(); break;
+                case 1:
+                    flowers[i] = new Chamomile(); break;
+                case 2:
+                    flowers[i] = new Rose(); break;
+                case 3:
+                    flowers[i] = new Tulip();
+            }
         }
     }
 
     /**
      * Show Bouquet content
      */
-    public void GetBouquetInfo()                        //Вывод имени и содержания букета
-    {
-        System.out.println("--Bouquet " + _bqName + " ("+_copyFlowers.length+"шт)");
+    public void GetBouquetInfo() {
 
-        Bouquet.ShowFlowers(_copyFlowers);              //Вызов статического метода разбора массива цветов
+        System.out.println("--Bouquet " + bqName + " ("+ copyFlowers.length+"шт)");
+
+        Bouquet.ShowFlowers(copyFlowers);                   //Вызов статического метода разбора массива цветов
     }
 
+    /**
+     * Static method. He show info about flowers in array
+     * @param flowers an array with objects
+     */
+    public static void ShowFlowers(Flower[] flowers) {      //Разбор массива цветов
 
-    public static void ShowFlowers(Flower[] flowers)    //Разбор массива цветов
-    {
         for(Flower flower : flowers)
-        {
-            flower.GetFlowerInfo();                     //Выполнение метода из класса Flower,
-            //общего для всех объектов цветов
-            if (flower.getClass() == Rose.class)            //***********************************
-                ((Rose) flower).GetRoseInfo();              //*Проверка каждого объекта Flower на соответствие
-            else if (flower.getClass() == Aster.class)      //*конкретному типу цветка, с последующим
-                ((Aster) flower).GetAsterInfo();            //*приведением к этому типу и вызову соответствующего
-            else if (flower.getClass() == Chamomile.class)  //*info-метода.
-                ((Chamomile) flower).GetChamomileInfo();    //***********************************
-            else if (flower.getClass() == Tulip.class)
-                ((Tulip) flower).GetTulipInfo();
-        }
+            System.out.println(flower.GetFlowerInfo());
+
         System.out.println();
     }
 }
