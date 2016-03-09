@@ -1,14 +1,13 @@
 package GoJAVA.Module3.Files;
 
-public class Directory
-{
+public class Directory {
+
+    /** Array containing all files in current directory */
     private File[] files;
 
-    /**
-     * Constructor
-     */
-    public Directory()
-    {
+    public Directory() {
+
+        //for example
         files = new File[]{new TextFile(), new AudioFile(), new ImageFile()};
     }
 
@@ -16,15 +15,10 @@ public class Directory
      * Show info about all files in directory
      * First common info, then own info
      */
-    public void GetDirInfo()
-    {
-        files[0].GetFileInfo();
-        ((TextFile)files[0]).TxtFileGetInfo();
+    public void GetDirInfo() {
 
-        files[1].GetFileInfo();
-        ((AudioFile)files[1]).AudFileGetInfo();
-
-        files[2].GetFileInfo();
-        ((ImageFile)files[2]).ImgFileGetInfo();
+        for(File file: files){
+            System.out.println(file.GetFileInfo());
+        }
     }
 }
