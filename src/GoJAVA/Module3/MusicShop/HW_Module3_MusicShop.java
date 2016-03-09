@@ -1,4 +1,4 @@
-package GoJAVA;
+package GoJAVA.Module3.MusicShop;
 
 
 import java.util.*;
@@ -47,11 +47,11 @@ class MusicShop
         for(MusicInstrument instrument: _innerCopyInstrCollect)
         {
             switch (instrument.getClass().toString()){          //Переключатель на основе типа переменной
-                case "class GoJAVA.Guitar" :
+                case "class GoJAVA.Module3.MusicShop.Guitar" :
                     System.out.print("Guitar "); break;
-                case "class GoJAVA.Piano" :
+                case "class GoJAVA.Module3.MusicShop.Piano" :
                     System.out.print("Piano "); break;
-                case "class GoJAVA.Tube" :
+                case "class GoJAVA.Module3.MusicShop.Tube" :
                     System.out.print("Tube ");
             }
         }

@@ -1,4 +1,4 @@
-package GoJAVA;
+package GoJAVA.Module3.Files;
 
 /**
  * Empty class
